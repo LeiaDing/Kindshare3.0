@@ -35,7 +35,7 @@ const Header = () => {
         <a href="/cart" style={{ textDecoration: "none" }}>
           <span id="cart" className="ms-3">
             {" "}
-            Cart{" "}
+            My Cart{" "}
           </span>
           <span className="ms-1" id="cart_count">
             {cartItems?.length}
