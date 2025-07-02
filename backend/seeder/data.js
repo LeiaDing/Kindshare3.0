@@ -1,220 +1,252 @@
 export default [
   {
-    name: "SanDisk Ultra 128GB SDXC UHS-I Memory Card up to 80MB/s",
-    price: 45.89,
-    description:
-      "Ultra-fast cards (2) to take better pictures and Full HD videos (1) with your compact to mid-range point-and-shoot cameras and camcorders. With SanDisk Ultra SDXC UHS-I cards you’ll benefit from faster downloads, high capacity, and better performance to capture and store 128GB (5) of high quality pictures and Full HD video (1). Take advantage of ultra-fast read speeds of up to 80MB/s (3) to save time moving photos and videos from the card to your computer. From a leader in flash memory storage, SanDisk Ultra SDXC UHS-I cards are compatible with SDHC and SDXC digital devices, and come with a 10-year limited warranty (6).",
-    ratings: 4.5,
-    images: [
+    "name": "Essential Cooking Appliance",
+    "price": 50.0,
+    "description": "This is a demo product using Unsplash image set 1.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/nkkjkta63uiazppzkmjf",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/nkkjkta63uiazppzkmjf.jpg",
+        "public_id": "unsplash/demo/u0_0",
+        "url": "/images/cooking-appliance.png"
       },
       {
-        public_id: "shopit/demo/hz1iwdqzrvxtfxincvju",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/hz1iwdqzrvxtfxincvju.jpg",
+        "public_id": "unsplash/demo/u0_1",
+        "url": "https://images.unsplash.com/photo-1586201375761-83865001e17b?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/oc2dvvkxyxukc13y9pjv",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577488/shopit/demo/oc2dvvkxyxukc13y9pjv.jpg",
-      },
+        "public_id": "unsplash/demo/u0_2",
+        "url": "https://images.unsplash.com/photo-1616627982234-996c859caa70?w=600&auto=format"
+      }
     ],
-    category: "Electronics",
-    seller: "Ebay",
-    stock: 50,
-    numOfReviews: 32,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 20,
+    "numOfReviews": 40,
+    "reviews": []
   },
   {
-    name: "CAN USB FD Adapter (GC-CAN-USB-FD)",
-    price: 315,
-    description:
-      "Monitor a CAN network, write a CAN program and communicate with industrial, medical, automotive or other CAN based device. Connect CAN FD and CAN networks to a computer via USB with the CAN USB FD adapter.",
-    ratings: 1.65,
-    images: [
+    "name": "Air Purifier",
+    "price": 65.99,
+    "description": "This is a demo product using Unsplash image set 2.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/e3hweb3tbp5zacfi564c",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/e3hweb3tbp5zacfi564c.jpg",
+        "public_id": "unsplash/demo/u1_0",
+        "url": "/images/AirPurifier.png"
       },
       {
-        public_id: "shopit/demo/mjcc0kg0lzxegrauh8qc",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/mjcc0kg0lzxegrauh8qc.jpg",
+        "public_id": "unsplash/demo/u1_1",
+        "url": "https://images.unsplash.com/photo-1616627456114-291aba85f46c?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/iruzmpgrhb6xyqheppxg",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577509/shopit/demo/iruzmpgrhb6xyqheppxg.jpg",
-      },
-      {
-        public_id: "shopit/demo/bj3auijqcxxvkwdohznb",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577510/shopit/demo/bj3auijqcxxvkwdohznb.jpg",
-      },
+        "public_id": "unsplash/demo/u1_2",
+        "url": "https://images.unsplash.com/photo-1590080876033-184f2a018661?w=600&auto=format"
+      }
     ],
-    category: "Electronics",
-    seller: "Amazon",
-    stock: 0,
-    numOfReviews: 2,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 25,
+    "numOfReviews": 43,
+    "reviews": []
   },
   {
-    name: "CHARMOUNT Full Motion TV Wall Mount Swivel",
-    price: 26.99,
-    description:
-      "CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3). CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3) CHARMOUNT TV MOUNT UNIVERSAL DESIGN - Has your TV been received? Tilted TV wall mount is for 26 - 55 TVs weight up to 88lbs 40 kg. Our tilt TV mount has a compatible faceplate that fits VESA 75X75mm (3x3).",
-    ratings: 3.5,
-    images: [
+    "name": "Colored Pencil",
+    "price": 81.98,
+    "description": "This is a demo product using Unsplash image set 3.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/yqqwxrgst2pi3frtngaw",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577531/shopit/demo/yqqwxrgst2pi3frtngaw.jpg",
+        "public_id": "unsplash/demo/u2_0",
+        "url": "/images/Pencil.png"
       },
       {
-        public_id: "shopit/demo/pgcwny8xyshsnwaiikbm",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577531/shopit/demo/pgcwny8xyshsnwaiikbm.jpg",
+        "public_id": "unsplash/demo/u2_1",
+        "url": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?w=600&auto=format"
       },
+      {
+        "public_id": "unsplash/demo/u2_2",
+        "url": "https://images.unsplash.com/photo-1622031372065-8f1469c5d5d1?w=600&auto=format"
+      }
     ],
-    category: "Electronics",
-    seller: "Amazon",
-    stock: 1,
-    numOfReviews: 12,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 30,
+    "numOfReviews": 46,
+    "reviews": []
   },
   {
-    name: "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
-    price: 299,
-    description:
-      "What happens when you clear away the noisy distractions of the world? Concentration goes to the next level. You get deeper into your music, your work, or whatever you want to focus on. That’s the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you’re most passionate about. And that’s just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
-    ratings: 4.5,
-    images: [
+    "name": "Art work Black and White",
+    "price": 97.97,
+    "description": "This is a demo product using Unsplash image set 4.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/yxbrklp7snr7dgxfrxu9",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/yxbrklp7snr7dgxfrxu9.jpg",
+        "public_id": "unsplash/demo/u3_0",
+        "url": "/images/ArtWork.png"
       },
       {
-        public_id: "shopit/demo/i8ge1ilin2fz9tk2okni",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577543/shopit/demo/i8ge1ilin2fz9tk2okni.jpg",
+        "public_id": "unsplash/demo/u3_1",
+        "url": "https://images.unsplash.com/photo-1625611385463-b2f99d149a48?w=600&auto=format"
       },
+      {
+        "public_id": "unsplash/demo/u3_2",
+        "url": "https://images.unsplash.com/photo-1587213811864-349da2ba7f3d?w=600&auto=format"
+      }
     ],
-    category: "Headphones",
-    seller: "Amazon",
-    stock: 11,
-    numOfReviews: 112,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 35,
+    "numOfReviews": 49,
+    "reviews": []
   },
   {
-    name: "Apple AirPods with Charging Case (Wired)",
-    price: 126.99,
-    description:
-      "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; AirPods (single charge): Up to 5 hours listening time, up to 3 hours talk time or 15 minutes in the case equals up to 3 hours listening time or up to 2 hours talk time.",
-    ratings: 4.8,
-    images: [
+    "name": "Unsplash Product 5",
+    "price": 113.96,
+    "description": "This is a demo product using Unsplash image set 5.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/yj00oalanbzmbzctsbln",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/yj00oalanbzmbzctsbln.jpg",
+        "public_id": "unsplash/demo/u4_0",
+        "url": "https://images.unsplash.com/photo-1598032896821-e43d348d21e0?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/mijzcdd5sle8a2any1i8",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/mijzcdd5sle8a2any1i8.jpg",
+        "public_id": "unsplash/demo/u4_1",
+        "url": "https://images.unsplash.com/photo-1579048391208-3319b2ef1ffa?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/kxckb0o7fbdwqgmugoct",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577557/shopit/demo/kxckb0o7fbdwqgmugoct.jpg",
-      },
+        "public_id": "unsplash/demo/u4_2",
+        "url": "https://images.unsplash.com/photo-1622814203743-fd5aefb6d4f5?w=600&auto=format"
+      }
     ],
-    category: "Electronics",
-    seller: "Amazon",
-    stock: 122,
-    numOfReviews: 2671,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 40,
+    "numOfReviews": 52,
+    "reviews": []
   },
   {
-    name: "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
-    price: 27.99,
-    description:
-      "DESIGN INFO - 3.5mm male to 2.5mm male audio cable adapter with Upgraded Flexible, Detachable Boom Mic which also enables rotary Volume Control and Mute Switch. SteelFlex Arm for perfect microphone positioning. INPUT COMPATIBILITY - Devices supporting 3.5mm audio output such as gaming PS4 / Xbox One controller, PC, Laptop, iPhone and Android Phone.",
-    ratings: 4.1,
-    images: [
+    "name": "Unsplash Product 6",
+    "price": 129.95,
+    "description": "This is a demo product using Unsplash image set 6.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/xmndneguqtrcutpf9wcz",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577572/shopit/demo/xmndneguqtrcutpf9wcz.jpg",
+        "public_id": "unsplash/demo/u5_0",
+        "url": "https://images.unsplash.com/photo-1555617980-dac46af1f8c1?w=600&auto=format"
       },
+      {
+        "public_id": "unsplash/demo/u5_1",
+        "url": "https://images.unsplash.com/photo-1587303431189-5fef8d092179?w=600&auto=format"
+      },
+      {
+        "public_id": "unsplash/demo/u5_2",
+        "url": "https://images.unsplash.com/photo-1582478191739-2a6d2d2ce743?w=600&auto=format"
+      }
     ],
-    category: "Accessories",
-    seller: "Amazon",
-    stock: 1123,
-    numOfReviews: 6,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 45,
+    "numOfReviews": 55,
+    "reviews": []
   },
   {
-    name: "Nikon D3500 W/ AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Black",
-    price: 496.95,
-    description:
-      "You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500. It's as easy to use as a point-and-shoot, but it takes beautiful DSLR photos and videos that get noticed. It feels outstanding in your hands, sturdy and balanced with controls where you want them. It's compact, durable and versatile, ideal for travel. And it works seamlessly with compatible smartphones, making it easier than ever to share your great photos. Even if you've never picked up a DSLR camera, you can take beautiful pictures with D3500.",
-    ratings: 4.7,
-    images: [
+    "name": "Unsplash Product 7",
+    "price": 145.94,
+    "description": "This is a demo product using Unsplash image set 7.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/q6ybe84qlkzwet9qwptz",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/q6ybe84qlkzwet9qwptz.jpg",
+        "public_id": "unsplash/demo/u6_0",
+        "url": "https://images.unsplash.com/photo-1560347876-aeef00ee58a1?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/niqqio1faynnscubkkmd",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/niqqio1faynnscubkkmd.jpg",
+        "public_id": "unsplash/demo/u6_1",
+        "url": "https://images.unsplash.com/photo-1622448013197-7c2efab09c2f?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/dy3nhjgsdgqcnrwf8u2h",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577585/shopit/demo/dy3nhjgsdgqcnrwf8u2h.jpg",
-      },
+        "public_id": "unsplash/demo/u6_2",
+        "url": "https://images.unsplash.com/photo-1616627566314-e4adfdf20cb2?w=600&auto=format"
+      }
     ],
-    category: "Cameras",
-    seller: "Amazon",
-    stock: 131,
-    numOfReviews: 222,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 50,
+    "numOfReviews": 58,
+    "reviews": []
   },
   {
-    name: "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
-    price: 949.99,
-    description:
-      "Stunning 13.3-inch Retina display with True Tone technology, Backlit Magic Keyboard and Touch ID, Tenth-generation, Intel Core i3 processor, Intel Iris Plus Graphics, Fast SSD storage, 8GB of memory, Stereo speakers with wider stereo sound",
-    ratings: 4.9,
-    images: [
+    "name": "Unsplash Product 8",
+    "price": 161.93,
+    "description": "This is a demo product using Unsplash image set 8.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/jzqaj98nnhy0hcsilx9y",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577597/shopit/demo/jzqaj98nnhy0hcsilx9y.jpg",
+        "public_id": "unsplash/demo/u7_0",
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/welkq4dgfi5267usmj0n",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577597/shopit/demo/welkq4dgfi5267usmj0n.jpg",
+        "public_id": "unsplash/demo/u7_1",
+        "url": "https://images.unsplash.com/photo-1606818261211-0ef65d6b4f64?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/pabtjloyzenmr6z8klcr",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577600/shopit/demo/pabtjloyzenmr6z8klcr.jpg",
-      },
+        "public_id": "unsplash/demo/u7_2",
+        "url": "https://images.unsplash.com/photo-1598966737334-8d7b8d3a2c35?w=600&auto=format"
+      }
     ],
-    category: "Laptops",
-    seller: "Amazon",
-    stock: 0,
-    numOfReviews: 56,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 55,
+    "numOfReviews": 61,
+    "reviews": []
   },
   {
-    name: "Kauffman Orchards Homegrown McIntosh Apples",
-    price: 2.75,
-    description:
-      "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil McIntosh apples are famous for snacking, pies, salads, and applesauce Protected with soft, high-density foam for safe shipping to your door Not for sale to California, Oregon, or Washington due to state laws governing fresh produce",
-    ratings: 5,
-    images: [
+    "name": "Unsplash Product 9",
+    "price": 177.92,
+    "description": "This is a demo product using Unsplash image set 9.",
+    "ratings": 4.4,
+    "images": [
       {
-        public_id: "shopit/demo/mq0zpyzmzqokphs9m9we",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/mq0zpyzmzqokphs9m9we.jpg",
+        "public_id": "unsplash/demo/u8_0",
+        "url": "https://images.unsplash.com/photo-1616627985543-e753f3a6b3e5?w=600&auto=format"
       },
       {
-        public_id: "shopit/demo/pkyy8rifxpesiwpy23kk",
-        url: "http://res.cloudinary.com/udemy-courses/image/upload/v1698577619/shopit/demo/pkyy8rifxpesiwpy23kk.jpg",
+        "public_id": "unsplash/demo/u8_1",
+        "url": "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=600&auto=format"
       },
+      {
+        "public_id": "unsplash/demo/u8_2",
+        "url": "https://images.unsplash.com/photo-1603787081030-0d7f4c8f7b52?w=600&auto=format"
+      }
     ],
-    category: "Food",
-    seller: "Kauffman's Fruit Farm & Market",
-    stock: 500,
-    numOfReviews: 1,
-    reviews: [],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 60,
+    "numOfReviews": 64,
+    "reviews": []
   },
+  {
+    "name": "Unsplash Product 10",
+    "price": 193.91,
+    "description": "This is a demo product using Unsplash image set 10.",
+    "ratings": 4.4,
+    "images": [
+      {
+        "public_id": "unsplash/demo/u9_0",
+        "url": "https://images.unsplash.com/photo-1560340048-691f3ac26b5e?w=600&auto=format"
+      },
+      {
+        "public_id": "unsplash/demo/u9_1",
+        "url": "https://images.unsplash.com/photo-1570819179308-52d184d4fa64?w=600&auto=format"
+      },
+      {
+        "public_id": "unsplash/demo/u9_2",
+        "url": "https://images.unsplash.com/photo-1580910051074-f5d9a0a1d311?w=600&auto=format"
+      }
+    ],
+    "category": "Home",
+    "seller": "Unsplash Mart",
+    "stock": 65,
+    "numOfReviews": 67,
+    "reviews": []
+  }
 ];

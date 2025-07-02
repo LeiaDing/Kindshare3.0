@@ -20,11 +20,12 @@ const Header = () => {
   };
 
   return (
-    <nav className="navbar row">
+    <nav className="navbar row" 
+    >
       <div className="col-12 col-md-3 ps-5">
         <div className="navbar-brand">
           <a href="/">
-            <img src="/images/shopit_logo.png" alt="ShopIT Logo" />
+            <img src="/images/KindShareLogoFinal.png" alt="KindShare Logo" />
           </a>
         </div>
       </div>
@@ -35,7 +36,7 @@ const Header = () => {
         <a href="/cart" style={{ textDecoration: "none" }}>
           <span id="cart" className="ms-3">
             {" "}
-            My Cart{" "}
+            My Basket{" "}
           </span>
           <span className="ms-1" id="cart_count">
             {cartItems?.length}

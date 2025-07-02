@@ -22,7 +22,7 @@ const Search = () => {
           id="search_field"
           aria-describedby="search_btn"
           className="form-control"
-          placeholder="Enter Product Name ..."
+          placeholder="Enter Item Name ..."
           name="keyword"
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)}
