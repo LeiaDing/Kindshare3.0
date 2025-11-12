@@ -91,6 +91,29 @@ const orderSchema = new mongoose.Schema(
       default: "Processing",
     },
     deliveredAt: Date,
+    web3TransactionHash: {
+      type: String,
+      default: null,
+    },
+    tokenTransferred: {
+      type: Number,
+      default: 0,
+    },
+    buyerWallet: {
+      type: String,
+      default: null,
+      lowercase: true
+    },
+    sellerWallet: {
+      type: String,
+      default: null,
+      lowercase: true
+    },
+    paymentType: {
+      type: String,
+      enum: ["traditional", "crypto"],
+      default: "traditional",
+    },
   },
   { timestamps: true }
 );

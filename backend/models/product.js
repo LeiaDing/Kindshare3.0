@@ -85,6 +85,16 @@ const productSchema = new mongoose.Schema(
       ref: "User",
       required: false,
     },
+    sellerWallet: {
+      type: String,
+      required: false,
+      lowercase: true
+    },
+    sellerUser: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: false,
+    },
   },
   { timestamps: true }
 );

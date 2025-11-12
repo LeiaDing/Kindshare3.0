@@ -27,7 +27,20 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: String,
+      enum: ["user", "admin"],
       default: "user",
+    },
+    walletAddress: {
+      type: String,
+      default: null,
+      unique: true,
+      sparse: true,
+      lowercase: true,
+      match: /^0x[a-fA-F0-9]{40}$/
+    },
+    tokenBalance: {
+      type: Number,
+      default: 100
     },
     resetPasswordToken: String,
     resetPasswordExpire: Date,
