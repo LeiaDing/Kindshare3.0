@@ -34,7 +34,7 @@ const adminRoutes = () => {
       <Route
         path="/admin/product/new"
         element={
-          <ProtectedRoute admin={true}>
+          <ProtectedRoute>
             <NewProduct />
           </ProtectedRoute>
         }

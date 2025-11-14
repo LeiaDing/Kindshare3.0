@@ -6,6 +6,7 @@ import {
   deleteProductImage,
   deleteReview,
   getAdminProducts,
+  getMyProducts,
   getProductDetails,
   getProductReviews,
   getProducts,
@@ -19,10 +20,14 @@ const router = express.Router();
 router.route("/products").get(getProducts);
 router
   .route("/admin/products")
-  .post(isAuthenticatedUser, authorizeRoles("admin"), newProduct)
+  // Allow any authenticated user to create a product; keep admin check for listing
+  .post(isAuthenticatedUser, newProduct)
   .get(isAuthenticatedUser, authorizeRoles("admin"), getAdminProducts);
 
 router.route("/products/:id").get(getProductDetails);
+
+// Get products created by the currently authenticated user
+router.route("/me/products").get(isAuthenticatedUser, getMyProducts);
 
 router
   .route("/admin/products/:id/upload_images")

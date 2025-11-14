@@ -76,6 +76,14 @@ const Header = () => {
                 </Link>
               )}
 
+              <Link className="dropdown-item" to="/admin/product/new">
+                我要出售
+              </Link>
+
+              <Link className="dropdown-item" to="/me/products">
+                我的商品
+              </Link>
+
               <Link className="dropdown-item" to="/me/orders">
                 {" "}
                 Orders{" "}

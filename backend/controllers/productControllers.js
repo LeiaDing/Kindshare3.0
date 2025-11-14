@@ -58,6 +58,15 @@ export const getAdminProducts = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
+// Get products for currently authenticated user => /api/v1/me/products
+export const getMyProducts = catchAsyncErrors(async (req, res, next) => {
+  const products = await Product.find({ user: req.user._id });
+
+  res.status(200).json({
+    products,
+  });
+});
+
 // Update product details   =>  /api/v1/products/:id
 export const updateProduct = catchAsyncErrors(async (req, res) => {
   let product = await Product.findById(req?.params?.id);

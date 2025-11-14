@@ -39,6 +39,10 @@ export const productApi = createApi({
       query: () => `/admin/products`,
       providesTags: ["AdminProducts"],
     }),
+    getMyProducts: builder.query({
+      query: () => `/me/products`,
+      providesTags: ["Product"],
+    }),
     createProduct: builder.mutation({
       query(body) {
         return {
@@ -110,6 +114,7 @@ export const {
   useSubmitReviewMutation,
   useCanUserReviewQuery,
   useGetAdminProductsQuery,
+  useGetMyProductsQuery,
   useCreateProductMutation,
   useUpdateProductMutation,
   useUploadProductImagesMutation,

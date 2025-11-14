@@ -18,6 +18,7 @@ import PaymentMethod from "../cart/PaymentMethod";
 import MyOrders from "../order/MyOrders";
 import OrderDetails from "../order/OrderDetails";
 import Invoice from "../invoice/Invoice";
+import MyProducts from "../user/MyProducts";
 import Home from "../Home";
 
 const userRoutes = () => {
@@ -98,6 +99,15 @@ const userRoutes = () => {
         element={
           <ProtectedRoute>
             <MyOrders />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/me/products"
+        element={
+          <ProtectedRoute>
+            <MyProducts />
           </ProtectedRoute>
         }
       />
