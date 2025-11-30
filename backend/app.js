@@ -48,6 +48,22 @@ app.use("/api/v1", orderRoutes);
 app.use("/api/v1", paymentRoutes);
 app.use("/api/v1", web3Routes);
 
+// Root route for API info
+app.get("/", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Kindshare API is running",
+    version: "1.0.0",
+    endpoints: {
+      products: "/api/v1/products",
+      auth: "/api/v1/register, /api/v1/login",
+      orders: "/api/v1/orders",
+      payment: "/api/v1/payment",
+      web3: "/api/v1/web3"
+    }
+  });
+});
+
 if (process.env.NODE_ENV === "PRODUCTION") {
   app.use(express.static(path.join(__dirname, "../frontend/build")));
 
