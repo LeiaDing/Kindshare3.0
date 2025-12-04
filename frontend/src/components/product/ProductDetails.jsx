@@ -64,6 +64,7 @@ const ProductDetails = () => {
       image: product?.images[0]?.url,
       stock: product?.stock,
       quantity,
+      sellerWallet: product?.sellerWallet,
     };
 
     dispatch(setCartItem(cartItem));

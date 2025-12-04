@@ -92,30 +92,68 @@ const PaymentMethod = () => {
         }
 
         // 连接 MetaMask
-        const provider = new ethers.providers.Web3Provider(window.ethereum);
-        await provider.send("eth_requestAccounts", []);
-        const signer = provider.getSigner();
+        const provider = new ethers.BrowserProvider(window.ethereum);
+        
+        // 检查网络
+        const network = await provider.getNetwork();
+        const sepoliaChainId = 11155111n; // Sepolia 测试网的 Chain ID
+        
+        if (network.chainId !== sepoliaChainId) {
+          toast.error("请切换到 Sepolia 测试网络");
+          try {
+            await window.ethereum.request({
+              method: 'wallet_switchEthereumChain',
+              params: [{ chainId: '0xaa36a7' }], // Sepolia chainId in hex
+            });
+            // 等待网络切换完成后重新获取 provider
+            window.location.reload();
+            return;
+          } catch (switchError) {
+            toast.error("无法切换网络，请手动切换到 Sepolia");
+            return;
+          }
+        }
+        
+        const signer = await provider.getSigner();
         const buyerAddress = await signer.getAddress();
 
         // 获取卖家钱包地址（从第一个商品获取）
+        console.log("购物车商品数据:", cartItems);
+        console.log("第一个商品:", cartItems[0]);
         const sellerAddress = cartItems[0]?.sellerWallet;
+        console.log("卖家地址:", sellerAddress);
         if (!sellerAddress) {
-          toast.error("卖家未设置钱包地址");
+          toast.error("卖家未设置钱包地址。请清空购物车后重新添加商品。");
           return;
         }
 
         // 合约配置
         const contractAddress = process.env.REACT_APP_CONTRACT_ADDRESS || "0x6d87bCE47B5A08E9F453A515F5548509d737743C";
         const contractABI = [
-          "function transfer(address to, uint256 amount) public returns (bool)",
-          "function balanceOf(address account) public view returns (uint256)"
+          {
+            "inputs": [{"internalType": "address", "name": "account", "type": "address"}],
+            "name": "balanceOf",
+            "outputs": [{"internalType": "uint256", "name": "", "type": "uint256"}],
+            "stateMutability": "view",
+            "type": "function"
+          },
+          {
+            "inputs": [
+              {"internalType": "address", "name": "to", "type": "address"},
+              {"internalType": "uint256", "name": "amount", "type": "uint256"}
+            ],
+            "name": "transfer",
+            "outputs": [{"internalType": "bool", "name": "", "type": "bool"}],
+            "stateMutability": "nonpayable",
+            "type": "function"
+          }
         ];
 
         const contract = new ethers.Contract(contractAddress, contractABI, signer);
 
         // 检查余额
         const balance = await contract.balanceOf(buyerAddress);
-        const balanceInTokens = parseFloat(ethers.utils.formatUnits(balance, 18));
+        const balanceInTokens = parseFloat(ethers.formatUnits(balance, 18));
         
         if (balanceInTokens < totalPrice) {
           toast.error(`代币余额不足！当前余额: ${balanceInTokens.toFixed(2)} KSTT`);
@@ -124,7 +162,7 @@ const PaymentMethod = () => {
 
         // 转账代币
         toast.loading("正在处理代币转账...");
-        const amount = ethers.utils.parseUnits(totalPrice.toString(), 18);
+        const amount = ethers.parseUnits(totalPrice.toString(), 18);
         const tx = await contract.transfer(sellerAddress, amount);
         
         toast.loading("等待交易确认...");

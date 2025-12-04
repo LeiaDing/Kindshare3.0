@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // 替换成你的管理员钱包地址（Account 1）
-const ADMIN_WALLET = "0x你的Account1地址";
+const ADMIN_WALLET = "0x32e23d786a0b0107dd578133ea2d783aed275acd";
 
 mongoose.connect('mongodb://127.0.0.1:27017/shopit-v2')
   .then(async () => {
