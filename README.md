@@ -163,8 +163,4 @@ This project is currently licensed as **ISC** according to `package.json`.
 
 ---
 
-If you want, this README can be extended with:
-- feature list and screenshots
-- API endpoint documentation
-- deployment guide (Render/Vercel/Railway)
-- contribution and branching conventions
+
