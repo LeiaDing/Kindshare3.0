@@ -7,21 +7,21 @@ The platform automatically rewards new users with welcome tokens and incentivize
 This project was built during ETHToronto 2024 Hackathon and is deployed on a public Ethereum test network.
 
 ## Features
--List unused items for community tokens
+- List unused items for community tokens
 
--Purchase items using ERC-20 KinS Token
+- Purchase items using ERC-20 KinS Token
 
--Automatic welcome token rewards for new users
+- Automatic welcome token rewards for new users
 
--Community activity incentive mechanism
+- Community activity incentive mechanism
 
--Secure Solidity smart contracts
+- Secure Solidity smart contracts
 
--Blockchain transaction history
+- Blockchain transaction history
 
--Wallet integration
+- Wallet integration
 
--Decentralized token economy
+- Decentralized token economy
 
 ## Repository
 
