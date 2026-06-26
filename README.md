@@ -8,12 +8,19 @@ This project was built during ETHToronto 2024 Hackathon and is deployed on a pub
 
 ## Features
 -List unused items for community tokens
+
 -Purchase items using ERC-20 KinS Token
+
 -Automatic welcome token rewards for new users
+
 -Community activity incentive mechanism
+
 -Secure Solidity smart contracts
+
 -Blockchain transaction history
+
 -Wallet integration
+
 -Decentralized token economy
 
 ## Repository
