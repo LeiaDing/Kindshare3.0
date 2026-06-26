@@ -1,6 +1,20 @@
 # Kindshare 3.0
 
-A full-stack ecommerce web application with a React frontend and a Node.js/Express backend.
+A decentralized community marketplace that encourages local sharing through a community token economy.
+KindShare is a Web3-powered platform where community members can exchange unused items using an ERC-20 community token instead of traditional payments.
+Instead of letting reusable items go to waste, residents can list them with token prices, trade with neighbors, and earn additional rewards for contributing to an active and sustainable community.
+The platform automatically rewards new users with welcome tokens and incentivizes active participation through community token rewards.
+This project was built during ETHToronto 2024 Hackathon and is deployed on a public Ethereum test network.
+
+## Features
+-List unused items for community tokens
+-Purchase items using ERC-20 KinS Token
+-Automatic welcome token rewards for new users
+-Community activity incentive mechanism
+-Secure Solidity smart contracts
+-Blockchain transaction history
+-Wallet integration
+-Decentralized token economy
 
 ## Repository
 
